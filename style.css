@@ -1,6 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    
     /* margin: 0; */
     /* padding: 0; */
 }
@@ -10,6 +11,7 @@
     width: 90vw;
     margin: 10px;
     justify-content: flex-end;
+
     /* border: solid blue 1px;
     margin: 0;
     padding: 0; */
@@ -26,6 +28,7 @@
     color:bisque;
     display: flex;
     padding: 10px;
+
     /* border: solid bisque 2px; */
 }
 
@@ -34,8 +37,9 @@ body{
 }
 
 a{
-    /* color:black; */
     color:darkred;
+
+    /* color:black; */
 }
 
 body{
@@ -44,11 +48,14 @@ body{
 
 h1, h2{
     color:darkred;
+
     /* font-style: oblique; */
 }
 
 img{
     border: solid darkred 3px;
+    max-width: 100%;
+
     /* padding: 20px; */
     /* margin: 20px 40px;
     margin-top: 10px */
