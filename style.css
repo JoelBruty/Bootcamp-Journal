@@ -1,9 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    
-    /* margin: 0; */
-    /* padding: 0; */
 }
 
 #navbarcontainer{
@@ -11,10 +8,6 @@
     width: 90vw;
     margin: 10px;
     justify-content: flex-end;
-
-    /* border: solid blue 1px;
-    margin: 0;
-    padding: 0; */
 }
 
 #navbarContainer > nav {
@@ -34,12 +27,13 @@
 
 body{
     background-color: bisque;
+
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 a{
     color:darkred;
-
-    /* color:black; */
 }
 
 body{
@@ -54,9 +48,15 @@ h1, h2{
 
 img{
     border: solid darkred 3px;
+    /* width: 720px; */
     max-width: 100%;
+}
 
-    /* padding: 20px; */
-    /* margin: 20px 40px;
-    margin-top: 10px */
+ul{
+    display: inline-block;
+    width: 300px;
+    list-style-type: circle;
+
+    /* margin-left: 40%; */
+    /* list-style-position: inside; */
 }
